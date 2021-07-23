@@ -357,7 +357,7 @@ main > .container .chat  .chat-content .buttom-section .submit-buttom::before {
 /* Start main text */
 main > .container > .text {
 
-    max-width : 550px ; 
+    max-width : 450px ; 
 
 
     padding: 20px;
