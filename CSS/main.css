@@ -114,7 +114,7 @@ main > .container .chat {
 
     background-color : var(--app-background)  ;
 
-    margin-right : 200px ;
+    margin-right : 170px ;
 
     border-radius: 30px;
 
@@ -357,7 +357,7 @@ main > .container .chat  .chat-content .buttom-section .submit-buttom::before {
 /* Start main text */
 main > .container > .text {
 
-    max-width : 550px ; 
+    max-width : 450px ; 
 
 
     padding: 20px;
@@ -398,10 +398,6 @@ main > .container > .text p {
         display: none;
     }
 
-    main::before {
-        width: 60%;
-    }
-
     main > .container {
 
         flex-direction: column;
@@ -417,11 +413,23 @@ main > .container > .text p {
         text-align: center;
     }
 }
+
+@media (max-width : 500px) {
+    main::before {
+        width : 250px ; 
+    }
+}
 @media (max-width : 370px) {
     main > .container > .chat {
     width : 250px ; 
     }
+
+    main::before {
+        width : 200px ; 
+    }
 }
+
+
 
 /* End media */
 
