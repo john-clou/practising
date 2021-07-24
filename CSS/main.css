@@ -151,6 +151,8 @@ main > .container .chat::before {
     left : 50% ; 
 
     transform : translateX(-50%) ;
+
+    z-index: 5;
 }
 main > .container .chat header {
 
